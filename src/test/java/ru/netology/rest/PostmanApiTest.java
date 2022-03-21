@@ -20,7 +20,7 @@ class PostmanApiTest {
                 //Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Здравствуйте" + " Вас приветствует голосовой помощник"));
+                .body("data", equalTo("Здравствуйте" + "some value"));
     }
 }
 
